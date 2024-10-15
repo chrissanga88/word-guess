@@ -9,14 +9,14 @@
 </head>
 <body>
   <header>
-    <h1>Guess the Word</h1>
+    <div class="large-font">Guess the Word</div>
     <button class="start-button">Start</button>
   </header>
 
   <main>
     <section>
       <div class="card guess">
-        <div class="word-blanks">
+        <div class="word-blanks large-font">
           goo_ l_ck
         </div>
       </div>
@@ -24,15 +24,19 @@
     <section>
       <div class="card results">
         <div class="win-loss-container">
-          <h2>Wins: </h2>
-          <span class="win">0</span>
-          <h2>Losses: </h2>
-          <span class="lose">0</span>
+          <div>
+            <h2>Wins: 
+              <span class="win">0</span>
+            </h2>
+            <h2>Losses: 
+              <span class="lose">0</span>
+            </h2>
+          </div class=button-container>
           <button class="reset-button">Reset Score</button>
         </div>
         <div class="card timer">
           <div class="timer-text">
-            <div class="timer-count">10</div>
+            <div class="timer-count large-font">10</div>
             <h3>seconds remaining</h3>
           </div>
         </div>
